@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.shape-container{
+    border: 5px solid black;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.shape{
+    background-color: wheat;
+    height: 400px;
+    margin: 5rem auto;
+    width: 400px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+@media(min-width: 480px){
+
+    body{
+        background-color: skyblue;
+    }
+
+    .shape-container{
+        width: 100%;
+    }
+
+    .shape{
+        background-color: #263885;
+        clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%);
+    }
+}
+
+@media(min-width: 768px){
+    body{
+        background-color: slategray;
+    }
+
+    .shape{
+        background-color: gold;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    }
+}
+
+@media(min-width: 1024px){
+    body{
+        background-color: steelblue;
+    }
+
+    .shape{
+        background-color: snow;
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+}
+
+@media (min-width: 1200px){
+    body{
+        background-color: teal;
+    }
+    
+    .shape-container{
+        width: 75%;
+    }
+
+
+    .shape{
+        background-color: turquoise;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+}
+

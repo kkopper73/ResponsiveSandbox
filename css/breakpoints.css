@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.container{
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+}
+
+.breakpoints{
+    height: 100%;
+}
+
+.breakpoints > div{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    height: 50px;
+}
+
+
+.breakpoints h1{
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
