@@ -30,3 +30,25 @@
     padding: 2rem;
     margin-bottom: 2rem;
 }
+
+@media(max-width: 1200px){
+    body{
+        background-color: darkgrey;
+        color: cornsilk;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
+
+@media(max-width: 1088px){
+    .breakpoints > div{
+        display: block;
+    }
+
+    .breakpoints > div:not(:last-child){
+        border-bottom: none;
+    }
+
+}
